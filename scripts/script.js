@@ -1,4 +1,4 @@
-var hamMenu = document.querySelector("nav ul");
+
 
 var hamButton = document.querySelector(".icon");
 
@@ -10,9 +10,10 @@ var hamButton = document.querySelector(".icon");
 hamButton.addEventListener("click", toggleHamburgerMenu);
 
 
-
 function toggleHamburgerMenu(){
-
+    
+    var hamMenu = document.querySelector("nav ul");
     hamMenu.classList.toggle("visible");
 
 }
+
