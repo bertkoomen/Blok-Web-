@@ -12,7 +12,7 @@ hamButton.addEventListener("click", toggleHamburgerMenu);
 
 function toggleHamburgerMenu(){
     
-    var hamMenu = document.querySelector("nav ul");
+    var hamMenu = document.querySelector("nav ul li > ul");
     hamMenu.classList.toggle("visible");
 
 }
