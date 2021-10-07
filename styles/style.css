@@ -1,41 +1,90 @@
 
-/* *,
-html {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-} */
+
+
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    margin: 2;
+    padding: 0;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
 
 
 /* Navigatie */
 
+nav {
+   height: 68px;
+/* specifieke hoogte van navbar op og site */
+}
+
+ul{
+    display: flex; 
+    overflow: scroll;
+    list-style: none;
+
+    margin: 0;
+    align-items: center;
+    
+}
+
+body > header > nav > ul > li:nth-of-type(1) {
+    flex-grow: 1;
+    /* zorgt ervoor dat deze altijd links staat en de andere li's rechts */
+}
+
+body > header > nav > ul > li:nth-of-type(1) > svg {
+    height: 60px;
+    width: 60px;
+    /* grootte van nike logo op og website */
+    padding: 0;
+}
 
 body > header > nav > ul > li > ul{
-    background: none;
-    background-color:white;
+
     list-style: none;
     flex-direction: column;
     opacity: 0;
     padding-top: 1em;
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(-200%);
     position: fixed;
-    left: 0;
+    left: 30%;
     right: 0;
     top: 0;
-    bottom: 0;
+    bottom: 0%;
+    background-color:white;
+    
+    
 }
+
+body > header > nav > ul > li:not(:first-of-type) {
+    margin: 0 .3em;
+    /* ruimte tussen de li's, behalve de eerste */
+}
+
+body > header > nav > ul > li > svg {
+    width: 24px; 
+    padding: 8px;
+    /* dat is de grootte die ze op de og website ook gebruiken */
+}
+
+.icon {
+    padding: 8px;
+}
+
 
 .visible {
     opacity: 1;
+  transform: translateX(0%);
+  z-index: 100;
   
 }
-
-
-
-
-
-
 
 /* Foto's */
 
@@ -90,11 +139,10 @@ h1{
 }
  
 
-/* h2 {
-    font-size: ;
-    font-family: ;
-    font-weight: ;
-} */
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 
 
 h3{
@@ -124,6 +172,11 @@ p{
     color: white;
 }
 
+main p :nth-child(9)
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 
 /* Buttons */
@@ -136,7 +189,7 @@ color: white;
 font-size: 15px;
 padding: 1em;
 border-radius: 5em;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 margin: 10px;
 }
 
@@ -144,6 +197,14 @@ header > nav > ul button {
     border: none;
     background-color: transparent
 
+}
+
+.sizesSection button {
+    bottom: 0mm;
+    color:black;
+    border-radius: 0mm;
+background-color: white;
+border:solid 1px;
 }
 
 section > button {
@@ -161,48 +222,87 @@ section > button {
 a { list-style: none;
 color: white;}
 
+button {
+    background-color: black;
+font: medium;
+color: white;
+font-size: 15px;
+padding: 1em;
+border-radius: 5em;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 10px;
+}
+
+
+
 /* Footer */
 
-footer{
-    background: black;
-}
-footer > nav > ul {
+
+
+
+.Footer2 {
+
+    display: flex;
     flex-direction: column;
-    color: white;
-    font-weight: bold;
-}
-
-footer > section > ul
-{    display: flex;
-    flex-direction: space-between;
-    line-height: 1em;
-}
-
-footer > section > ul > li {
-    line-height: 1px;
-}
-
-footer > section > p {
+    align-items: flex-start;
+    background-color: black;
     color: white;
 }
 
 
-
-
-ul{
-    display: flex; 
-    overflow: scroll;
-    list-style: none;
+.Footer{
+    display: flex;
+    align-items: flex-end;
+    bottom: 0mm;
 }
 
+/* Sshop pagina */
 
+div > button {
+    color:white;
+    background: black;
+    position: relative;
+    bottom: 10em;
+    border: none;
+    padding: 1em;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 5em;
 
-/* Hamburger menu */
+}
 
-/* nav ul {
-    opacity: 0;
-  }
-  .visible {
-    opacity: 1;
-  } */
-  
+main > section > p {
+    align-items: center;
+    justify-content: center;
+}
+
+article > p
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: black;
+    line-height: 27px;
+}
+
+main  section :nth-child(2) button{
+    background-color: red;
+    font: medium;
+    color: white;
+    font-size: 15px;
+    padding: 1em;
+    border-radius: 5em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+
+}
+
+footer section ul {
+    margin-top: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0%;
+    margin-right: 15%;
+
+}
+
