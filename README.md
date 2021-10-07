@@ -40,11 +40,11 @@ link naar de website die je gaat namaken óf de naam/omschrijving van je eigen o
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/small.png" width="375px" alt="Home pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/small2" width="375px" alt="Product pagina">
  
 </details>
 
@@ -61,10 +61,8 @@ hier de naam van de pagina
 <img src="images/Breakdownsheet.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/hamburger.PNG" width="375px" alt="breakdown van een dynamisch deel">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -78,7 +76,7 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik vond in deze week best lastig om een font te importeren die niet van google afkomstig was. Wat wel goed ging was Makkelijk overweg ging met fonts. Dus het bewerken ervan
 
 
 ### Agenda voor meeting
@@ -111,7 +109,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik had wat moeite min het begin door weer in te komen in het vak. Erg veel was ik vergeten. Alleen deze week ging het positioneren wel oke met flex-box en waar ik even moest bijspijkeren was het Javascript
 
 
 ### Agenda voor meeting
@@ -139,6 +137,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 
 ## Toegankelijkheidstest (week 4)
+Helaas was ik ziek tijdens deze les
 
 <details>
 <summary>uitwerken na test in 8e voortgang</summary>
@@ -181,8 +180,8 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Ik was erg goed tijdens de oefeningen met de verschillende states van de buttons. Wat ik wat moeilijker vond was de zwarte piste opdrachten.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -231,10 +230,9 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://css-tricks.com/almanac/
+2. https://www.w3schools.com/
+3. https://caniuse.com/
 
 </details>
