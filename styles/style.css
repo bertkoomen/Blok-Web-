@@ -16,6 +16,11 @@ body {
   }
 
 
+  .icons-dark-mode {
+      fill: white;
+  }
+
+
 /* Navigatie */
 
 nav {
@@ -44,6 +49,61 @@ body > header > nav > ul > li:nth-of-type(1) > svg {
     /* grootte van nike logo op og website */
     padding: 0;
 }
+
+/* styling voor de a's in het hamburger menu */
+body > header > nav > ul > li > ul > li > a {
+    font-size: 16px;
+    line-height: 1em;
+    word-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: black;
+    text-decoration: none;
+}
+
+body > header > nav > ul > li > ul > li{
+    margin: 1em 0;
+}
+
+
+/* kruis icoon dmv ::before en ::after elementen.*/
+body > header > nav > ul > li > ul > li:first-of-type{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+}
+
+body > header > nav > ul > li > ul > li:first-of-type::after{
+    content: "";
+    background-color: black;
+    width: 2px;
+    height: 20px;
+
+    top: 0;
+    left: 0;
+
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+body > header > nav > ul > li > ul > li:first-of-type::before{
+    content: "";
+    position: absolute;
+
+    width: 2px;
+    height: 20px;
+    background-color: black;
+    top: 0;
+    left: 0;
+
+    transform: rotate(45deg);
+}
+
+/* --- */
+
 
 body > header > nav > ul > li > ul{
 
@@ -86,7 +146,15 @@ body > header > nav > ul > li > svg {
   
 }
 
+.visible-text {
+    color: black;
+}
+
 /* Foto's */
+
+.Foto {
+    height: 450px;
+}
 
 .Foto1 { 
     height: 500px;
@@ -96,18 +164,18 @@ body > header > nav > ul > li > svg {
     
 }
 
-.Foto2 {
+/* .Foto2 {
     height: 450px;
   
-}
+} */
 
-.Foto3 { 
+/* .Foto3 { 
     height: 450px;
     margin-right: 1em;
     justify-items: end;
-}
+} */
 
-.Foto4 { 
+/* .Foto4 { 
     height: 450px;
 }
 
@@ -117,7 +185,7 @@ body > header > nav > ul > li > svg {
 
 .Foto6 {
     height: 450px;
-}
+} */
 
 
 /* Tekst */
@@ -281,7 +349,6 @@ article > p
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    color: black;
     line-height: 27px;
 }
 
