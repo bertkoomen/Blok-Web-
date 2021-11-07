@@ -27,13 +27,15 @@
 				<li><svg class="pre-search-input-icon" fill="#111" height="30px" width="30px" viewBox="0 0 24 24"><path d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.39zM11 18a7 7 0 1 1 7-7 7 7 0 0 1-7 7z"></path></svg></li>
 
 				<li><ul>
-					<li><p>New Releases</p></li> 
-					<li><p>Men</p></li>
-					<li><p>Women</p></li>
-					<li><p>Kids</p></li>
-					<li><p>Sale</p></li>
-					<li><p>Back to school</p></li>
-					<li><p>Collections</p></li>
+					<!-- Alle p's zijn nu a's, de eerste li is een kruis icoontje met een id voor JS -->
+					<li id="closeMenu"></li>
+					<li> <a href="#">New Release</a> </li>
+					<li> <a href="#">Men</a> </li>
+					<li> <a href="#">Women</a> </li>
+					<li> <a href="#">Kids</a> </li>
+					<li> <a href="#">Sale</a> </li>
+					<li> <a href="#">Back to school</a> </li>
+					<li> <a href="#">Collections</a> </li>
 			</ul>
 			 <button class="icon"><svg width="24px" height="24px" fill="#111" viewBox="0 0 24 24"><path d="M21 13H3c-.6 0-1-.4-1-1s.4-1 1-1h18c.6 0 1 .4 1 1s-.4 1-1 1zm0-8H3c-.6 0-1-.4-1-1s.4-1 1-1h18c.6 0 1 .4 1 1s-.4 1-1 1zm0 16H3c-.6 0-1-.4-1-1s.4-1 1-1h18c.6 0 1 .4 1 1s-.4 1-1 1z"></path></svg></li>
 			</button>
@@ -42,7 +44,8 @@
 		</nav>
 	</header>
 	
-	<button onclick="myFunction()">Darkmode</button>
+	<!-- id aan de button gehangen voor JS ipv inline javascript -->
+	<button id="darkmodeBtn">Darkmode</button>
 
 	
 
@@ -62,9 +65,9 @@
 		<section> 
 			<h3> Gear up</h3>
 			<ul>
-				<li><img class="Foto2" src="./images/shoe.jpeg" alt="ShoeOne"></li>
-				<li><img class="Foto2" src="./images/shoe two one.png" alt="ShoeOne"></li>
-				<li><img class="Foto2" src="./images/shoe two two.png" alt="ShoeOne"></li>
+				<li><img class="Foto" src="./images/shoe.jpeg" alt="ShoeOne"></li>
+				<li><img class="Foto" src="./images/shoe two one.png" alt="ShoeOne"></li>
+				<li><img class="Foto" src="./images/shoe two two.png" alt="ShoeOne"></li>
 			</ul>
 			
 			<h4>Nike Zoomx Vaporfly Next 2</h4>
@@ -73,13 +76,13 @@
 		</section>
 
 		<section>
-			<img class="Foto3" src="./images/kids.jpeg" alt="KidsOne">
+			<img class="Foto" src="./images/kids.jpeg" alt="KidsOne">
 			<p class="OverlayTekst">Looks to Light Up Your Feed</p>
 			<button>Shop</button>
 		</section>
 
 		<section>
-			<img class="Foto4" src="./images/kids two.jpeg" alt="KidsTwo">
+			<img class="Foto" src="./images/kids two.jpeg" alt="KidsTwo">
 			<p class="OverlayTekst">Gear Up For Fun</p>
 			<button>Shop Kids'</button>
 		</section>
@@ -87,9 +90,9 @@
 <section>
 	<h3>Trending now</h3>
 	<ul>
-		<li><img class="Foto5" src="./images/shoes two.jpeg" alt="ShoeTwo"></li>
-		<li><img class="Foto5" src="./images/shoes two.jpeg" alt="ShoeTwo"></li>
-		<li><img class="Foto5" src="./images/shoes two.jpeg" alt="ShoeTwo"></li>
+		<li><img class="Foto" src="./images/shoes two.jpeg" alt="ShoeTwo"></li>
+		<li><img class="Foto" src="./images/shoes two.jpeg" alt="ShoeTwo"></li>
+		<li><img class="Foto" src="./images/shoes two.jpeg" alt="ShoeTwo"></li>
 	</ul>
 	
 	<h4>Nike Air Max Plus</h4>
@@ -99,7 +102,7 @@
 
 <section>
 	<h3>Don't Miss</h3>
-	<img class="Foto6" src="./images/woman.jpeg" alt="Women">
+	<img class="Foto" src="./images/woman.jpeg" alt="Women">
 	<p class="OverlayTekst">Nike(M): Your move. Your way.</p>
 	<button>Shop</button>
 </section>
