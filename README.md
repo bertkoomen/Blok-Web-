@@ -82,22 +82,16 @@ Ik vond in deze week best lastig om een font te importeren die niet van google a
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Adil     | Alex       |   
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Juiste lettertype importeren via google
+- Fontsize bepalen
+- Research naar de juiste lettertype
 
-</details>
 
 
 
@@ -115,63 +109,57 @@ Ik had wat moeite min het begin door weer in te komen in het vak. Erg veel was i
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Adil         | Alex
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Postioneren door middel van flexbox
+- Stukje javascript waarmee je transities kan bepalen
+- Aan de slag met position absolute en relative
+
 
 </details>
 
 
-
-
-
 ## Toegankelijkheidstest (week 4)
-Helaas was ik ziek tijdens deze les
+
 
 <details>
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+- Je kan goed door de site heen tabben
+- Buttons zijn klikbaar
+- De headings zijn leesbaar en in een goede structuur
+- Niet alle linkes zijn goed omschreven bij de foto waardoor het niet duidelijk is voor de gebruiker
 
 #### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+Tabben
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Door middel van de tab-toets op je keyboard kan je door de site heen navigeren. Dat is handig als je geen muis bij de hand hebt.
 
 
 #### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+BUttons 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Alle buttons zijn klikbaar waardoor het voor de gebruiker makkelijk is om naar de volgende pagina te gaan.
 
 
 #### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Headings
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Alle headings zijn goed gestructuurd waardoor het logisch is voor de gebruiker hoe de pagina in elkaar steekt.
 
 
 #### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Links
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+De omschrijving van verschillende afbeeldingen in de alt waren te algemeen waardoor het niet duidelijk was voor de gebruiker wat voor soort of welke afbeelding ze voor zich hadden
 
 </details>
-
-
-
 
 
 ## Voortgang 3 (week 4)
@@ -186,24 +174,16 @@ Ik was erg goed tijdens de oefeningen met de verschillende states van de buttons
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+ Megan   | Tejo
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Verschillende soorten states uitwerken in je code
+- Darkmode toevoegen aan je code
 
 </details>
-
-
 
 
 
@@ -213,16 +193,15 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het eindgesprek ging zoals ik had verwacht. Mijn site was nog niet af waardoor er een aantal dingen ontbraken in mijn code. Dit waren de elementen die nog miste in mijn code en Readme verslag. Ten eerste moest ik mijn toegankelijkheidstest verwerken in het verslag en het toepassen op mijn website. Daarnaast ben ik niet consistent geweest tussen px/percentage/em. Dat heb ik nu aangepast naar Em en enkele px. Mijn darkmode klopte nog niet op allebei de pagina waardoor sommige gedeelte niet leesbaar waren. Dar is nu opgelost. Verder heb ik in mijn hamburger menu vervangen door <a href="#">. Ten slotte heb ik mijn shop pagina meer inhoud gegeven en Onclick vervangen door Javascript met een eventlistener en een Queryselector. 
 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
 
+<img src="images/Feedback.png" width="375px" alt="Product pagina">
+
 </details>
-
-
-
 
 
 ## Bronnenlijst
@@ -230,9 +209,11 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
+1. https://www.w3schools.com/cssref/sel_before.asp
 
-1. https://css-tricks.com/almanac/
-2. https://www.w3schools.com/
-3. https://caniuse.com/
+2. https://www.w3schools.com/cssref/sel_after.asp
+
+3. https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
+
 
 </details>
