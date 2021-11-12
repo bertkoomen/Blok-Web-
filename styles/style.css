@@ -1,30 +1,36 @@
-
-
+  /* variables kleur */
+:root {
+    --main-color:white;
+    --second-color:black;
+    --button-color:black;
+    --font-size1: 3em;
+    --font-:arial;
+}
 
 
 body {
-    padding: 25px;
-    background-color: white;
-    color: black;
+    padding: 2em;
+    background-color: var(--main-color);
+    color: var(--second-color);
     margin: 2;
     padding: 0;
   }
   
   .dark-mode {
-    background-color: black;
-    color: white;
+    background-color: var(--second-color);
+    color: var(--main-color);
   }
 
 
   .icons-dark-mode {
-      fill: white;
+      fill: var(--main-color);
   }
 
 
 /* Navigatie */
 
 nav {
-   height: 68px;
+   height: 4em;
 /* specifieke hoogte van navbar op og site */
 }
 
@@ -44,20 +50,19 @@ body > header > nav > ul > li:nth-of-type(1) {
 }
 
 body > header > nav > ul > li:nth-of-type(1) > svg {
-    height: 60px;
-    width: 60px;
+    height: 3em;
+    width: 4em;
     /* grootte van nike logo op og website */
     padding: 0;
 }
 
 /* styling voor de a's in het hamburger menu */
 body > header > nav > ul > li > ul > li > a {
-    font-size: 16px;
+    font-size: 1em;
     line-height: 1em;
-    word-spacing: 1px;
+    word-spacing: 0.2em;
     font-family: Arial, Helvetica, sans-serif;
-
-    color: black;
+    color: var(--second-color);
     text-decoration: none;
 }
 
@@ -69,22 +74,20 @@ body > header > nav > ul > li > ul > li{
 /* kruis icoon dmv ::before en ::after elementen.*/
 body > header > nav > ul > li > ul > li:first-of-type{
     position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 20px;
-    left: 20px;
+    width: 1em;
+    height: 1em;
+    top: 1em;
+    left: 1em;
     margin: 0;
 }
 
 body > header > nav > ul > li > ul > li:first-of-type::after{
     content: "";
-    background-color: black;
+    background-color: var(--second-color);
     width: 2px;
     height: 20px;
-
     top: 0;
     left: 0;
-
     position: absolute;
     transform: rotate(-45deg);
 }
@@ -92,13 +95,11 @@ body > header > nav > ul > li > ul > li:first-of-type::after{
 body > header > nav > ul > li > ul > li:first-of-type::before{
     content: "";
     position: absolute;
-
     width: 2px;
     height: 20px;
-    background-color: black;
+    background-color: var(--second-color);
     top: 0;
     left: 0;
-
     transform: rotate(45deg);
 }
 
@@ -118,7 +119,7 @@ body > header > nav > ul > li > ul{
     right: 0;
     top: 0;
     bottom: 0%;
-    background-color:white;
+    background-color: var(--main-color);
     
     
 }
@@ -135,7 +136,7 @@ body > header > nav > ul > li > svg {
 }
 
 .icon {
-    padding: 8px;
+    padding: 0.5em;
 }
 
 
@@ -147,97 +148,83 @@ body > header > nav > ul > li > svg {
 }
 
 .visible-text {
-    color: black;
+    color: var()
 }
 
 /* Foto's */
 
 .Foto {
-    height: 450px;
+    height: 27em;
 }
 
 .Foto1 { 
-    height: 500px;
+    height: 29em;
     display: flex;
     justify-content: center;
     margin: 1.1em;
+    padding: 1em;
     
 }
-
-/* .Foto2 {
-    height: 450px;
-  
-} */
-
-/* .Foto3 { 
-    height: 450px;
-    margin-right: 1em;
-    justify-items: end;
-} */
-
-/* .Foto4 { 
-    height: 450px;
-}
-
-.Foto5 {
-    height: 450px;
-}
-
-.Foto6 {
-    height: 450px;
-} */
 
 
 /* Tekst */
 
 main > section > p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   line-height: 25px;
+   line-height: 1em;
 
 } 
 
 h1{
-    font-size: 3em;
+    font-size: var(--font-size1);
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-style:inherit;
     text-shadow:inherit;
     text-decoration:initial;
     text-transform:initial;
+    text-align: center;
 }
  
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-);
     font-weight: bold;
 }
 
 
 h3{
-    font-size: 24px ; 
+    font-size: 2em ; 
     font-family:Helvetica, sans-serif ;
 }
 
 h4{
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    font-family: var(--font-);
 }
 
 p{
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: var(--font-);
     line-height: 1em;
-    word-spacing: 1px;
+    word-spacing: 0.1em;
 }
 
+h5
+{ 
+    font-size: 1.2em;
+    font-family: var(--font-);
+    text-align: center;
+    font-weight: lighter
+}
 .OverlayTekst{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    word-spacing: 1px;
+    font-family: var(--font-);
+    font-size: 1em;
+    word-spacing: 0.1em;
     position: relative;
     bottom: 9em;
     left: 1em;
-    color: white;
+    color: var(--main-color)
 }
 
 main p :nth-child(9)
@@ -251,10 +238,10 @@ main p :nth-child(9)
 
 main > section:first-of-type button{
 
-background-color: black;
+background-color: var(--button-color);
 font: medium;
-color: white;
-font-size: 15px;
+color: var(--main-color);
+font-size: 1em;
 padding: 1em;
 border-radius: 5em;
 font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -269,36 +256,37 @@ header > nav > ul button {
 
 .sizesSection button {
     bottom: 0mm;
-    color:black;
+    color: var(--second-color);
     border-radius: 0mm;
-background-color: white;
+background-color: var(--main-color);
 border:solid 1px;
 }
 
 section > button {
-    color: black;
-    background: white;
+    color: var(--button-color);
+    background: var(--main-color);
     position: relative;
     bottom: 10em;
     border: none;
     padding: 1em;
-    margin: 10px;
-    font-size: 15px;
+    margin: 0.5em;
+    font-size: 1em;
     border-radius: 5em;
 }
 
 a { list-style: none;
-color: white;}
+color: var(--main-color);
+}
 
 button {
-    background-color: black;
+    background-color: var(--second-color);
 font: medium;
-color: white;
-font-size: 15px;
+color: var(--main-color);
+font-size: 0.9em;
 padding: 1em;
 border-radius: 5em;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-margin: 10px;
+margin: 0.5em;
 }
 
 
@@ -313,8 +301,8 @@ margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: black;
-    color: white;
+    background-color: var(--second-color);
+    color: var(--main-color);
 }
 
 
@@ -327,14 +315,14 @@ margin: 10px;
 /* Sshop pagina */
 
 div > button {
-    color:white;
-    background: black;
+    color:var(--main-color);
+    background: var(--second-color);
     position: relative;
     bottom: 10em;
     border: none;
     padding: 1em;
-    margin: 10px;
-    font-size: 15px;
+    margin: 0.5em;
+    font-size: 1em;
     border-radius: 5em;
 
 }
@@ -353,9 +341,8 @@ article > p
 }
 
 main  section :nth-child(2) button{
-    background-color: red;
     font: medium;
-    color: white;
+    color: var(--second-color);
     font-size: 15px;
     padding: 1em;
     border-radius: 5em;
@@ -372,4 +359,19 @@ footer section ul {
     margin-right: 15%;
 
 }
+
+footer > nav > ul > li > a {
+    font-size: 16px;
+    line-height: 1em;
+    word-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--main-color);
+    text-decoration: none;
+    margin-top: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0%;
+    margin-right: 15%;
+}
+
 
